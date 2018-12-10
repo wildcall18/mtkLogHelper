@@ -1,0 +1,13 @@
+<resources>
+  <string name="app_name">MTKLogHelper</string>
+  <string name="action_settings">Settings</string>
+  <string name="title_activity_log_set">LogSetActivity</string>
+  <string name="Upload">Upload</string>
+  <string name="Error">Error</string>
+  <string name="Complete">Complete</string>
+  <string name="mtkLog_name">mtk目录名</string>
+  <string name="mtkLog_desc">mtk目录描述</string>
+
+  <!-- TODO: Remove or change this placeholder text -->
+  <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

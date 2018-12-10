@@ -1,0 +1,19 @@
+[
+  {
+    "name": "case1",
+
+    "description": "testcase1",
+    "starttime": "2001",
+    "stoptime":"2002",
+    "status":"success"
+  },
+  {
+    "name": "case2",
+
+    "description": "testcase2",
+    "starttime": "2003",
+    "stoptime":"2004",
+    "status":"success"
+  }
+
+]

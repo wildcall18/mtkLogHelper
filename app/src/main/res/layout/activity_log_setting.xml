@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  tools:context=".LogSettingActivity">
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+      android:id="@+id/textView"
+      android:layout_width="match_parent"
+      android:layout_height="45dp"
+      android:layout_marginTop="30dp"
+      android:text="case名"
+      android:textAlignment="center"
+      android:textSize="24sp" />
+
+    <EditText
+      android:id="@+id/editTextCaseName"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+      android:ems="10"
+      android:inputType="textPersonName"
+      android:text="case1" />
+
+    <Button
+      android:id="@+id/buttonCaseSuccess"
+      android:layout_width="match_parent"
+      android:layout_height="106dp"
+      android:layout_marginLeft="10dp"
+      android:layout_marginTop="40dp"
+      android:layout_marginRight="10dp"
+      android:layout_marginBottom="20dp"
+      android:background="#5db87f"
+      android:text="设为成功" />
+
+    <Button
+      android:id="@+id/buttonCaseFailed"
+      android:layout_width="match_parent"
+      android:layout_height="103dp"
+      android:layout_marginLeft="10dp"
+      android:layout_marginTop="30dp"
+      android:layout_marginRight="10dp"
+      android:layout_marginBottom="20dp"
+      android:background="#d12222"
+      android:text="设为失败" />
+
+  </LinearLayout>
+</android.support.constraint.ConstraintLayout>

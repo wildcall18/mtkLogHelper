@@ -1,0 +1,12 @@
+版本： 0.5
+时间： 2018/12/3
+Update:  增加了显示已完成的MTKLog记录，LogListView(主界面向右滑动可见)
+              增加了MTKLog记录详细内容，LogdetailView(ListView中点击相应项可见)
+              对应caseresult.jason中的内容
+
+              退出ListView(返回键)
+              退出LogdetailView(向上滑动)
+ 版本： 0.6
+时间： 2018/12/6
+Update:  优化了主页面和记录页面切换时的滑动动画
+              记录页面log目录内容设为滚动
